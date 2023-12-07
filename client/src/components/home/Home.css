@@ -1,0 +1,47 @@
+.container{
+  text-shadow: #555;
+  background-color: #cca2a2;
+  padding: 20px;
+  text-align: center;
+}
+.article-container {
+    display: flex; /* Make the article and right column display side by side */
+    justify-content: space-between; /* Create space between them */
+  }
+  
+  article {
+    flex: 1; /* Allow the article to take up available space in the flex container */
+    margin-right: 20px; /* Add spacing between the article and the right column */
+  }
+  
+  .right-column {
+    flex-basis: 30%; /* Set a specific width for the right column */
+    background-color: #bbabab; /* Grey background color */
+  }
+  
+  /* Styles for the Right Column Content */
+  .right-column h3 {
+    font-size: 18px; /* Adjust the right column title font size */
+    color: #333; /* Text color for the right column title */
+  }
+  
+  .right-column ul {
+    list-style: none; /* Remove the list-style (bullets) for the right column links */
+    padding: 0;
+  }
+  
+  .right-column ul li {
+    margin-bottom: 10px; /* Add spacing between right column links */
+  }
+  
+  .right-column a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #555; /* Set link text color for right column links */
+  }
+  .head-text{
+    text-align: center;
+    font-size: 30px;
+    color: #55b3a3;
+    background-color: rgb(80, 80, 136);
+  }
+  
